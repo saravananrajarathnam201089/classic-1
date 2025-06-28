@@ -1,4 +1,9 @@
 components:
+- event_bindings: {bounds_changed: map_1_bounds_changed}
+  layout_properties: {slot: default}
+  name: map_1
+  properties: {}
+  type: GoogleMap
 - event_bindings: {click: plot_1_click}
   layout_properties: {slot: default}
   name: plot_1
@@ -13,4 +18,5 @@ container:
     html: "<center style=\"font-style:italic; color:#888; margin: 3em;\">\n  (Insert your custom HTML here)\n<html>\n  <header> Sub </header>\n  <body>\n    <a href='https://www.sbi.com'>sbi</a>\n<marquee> text</marquee>\n  </body>\n</html>\n  \n</center>\n<div anvil-slot=\"default\"></div>"
     visible: true
   type: HtmlTemplate
+custom_component: true
 is_package: true
