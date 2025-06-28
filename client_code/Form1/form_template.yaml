@@ -1,4 +1,9 @@
 components:
+- event_bindings: {click: plot_1_click}
+  layout_properties: {slot: default}
+  name: plot_1
+  properties: {}
+  type: Plot
 - layout_properties: {slot: default}
   name: card_1
   properties: {role: card}
