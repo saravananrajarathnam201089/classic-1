@@ -1,0 +1,11 @@
+components:
+- layout_properties: {slot: default}
+  name: card_1
+  properties: {role: card}
+  type: ColumnPanel
+container:
+  properties:
+    html: "<center style=\"font-style:italic; color:#888; margin: 3em;\">\n  (Insert your custom HTML here)\n<html>\n  <header> Sub </header>\n  <body>\n    <a href='https://ww.'></a>\n  </body>\n</html>\n  \n</center>\n<div anvil-slot=\"default\"></div>"
+    visible: true
+  type: HtmlTemplate
+is_package: true
