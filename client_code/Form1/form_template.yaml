@@ -5,7 +5,7 @@ components:
   type: ColumnPanel
 container:
   properties:
-    html: "<center style=\"font-style:italic; color:#888; margin: 3em;\">\n  (Insert your custom HTML here)\n<html>\n  <header> Sub </header>\n  <body>\n    <a href='https://ww.'></a>\n  </body>\n</html>\n  \n</center>\n<div anvil-slot=\"default\"></div>"
+    html: "<center style=\"font-style:italic; color:#888; margin: 3em;\">\n  (Insert your custom HTML here)\n<html>\n  <header> Sub </header>\n  <body>\n    <a href='https://www.sbi.com'>sbi</a>\n<marquee> text</marquee>\n  </body>\n</html>\n  \n</center>\n<div anvil-slot=\"default\"></div>"
     visible: true
   type: HtmlTemplate
 is_package: true
