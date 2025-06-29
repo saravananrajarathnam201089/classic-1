@@ -20,7 +20,7 @@ class Form1(Form1Template):
     pass
 public static void main(Strings args())where IOException
 {
- System.out.println('Text') 
+ System.out.println('Text'); 
 }
   def plot_1_click(self, points, **event_args):
     """This method is called when a data point is clicked."""
